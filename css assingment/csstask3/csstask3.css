@@ -1,0 +1,206 @@
+.service{
+    display: flex;
+    position: relative;
+}
+/* first part css is start========================== */
+.service1{
+    width: 50%;
+    height: 630px;
+    background-color: #202020;
+}
+/* our service text css start================  */
+.first{
+   display: flex;
+   justify-content: end;
+   margin-top: 70px;
+}
+.f1{
+    font-size: 36px;
+    letter-spacing: 4px;
+    color: #f4f5f9;
+    font-weight: 700;
+    font-family: "Source Sans Pro";
+    margin-right: 30px;
+}
+.f2{
+    width: 6px;
+    height: 36px;
+    background-color: #e74c3c;
+    margin-right: 30px;
+}
+/* fist img css============== */
+.m1{
+    position: absolute;
+    margin-left: 47.6%;
+    padding-top: 10px;
+}
+.layer1{
+    opacity: 0.251;
+width: 73px;
+height: 72px;
+border-radius: 36px;
+background-color: #ffffff;
+}
+.back1{
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    background-color: #ffffff;
+    
+    background-image: url(img/task-3-img-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+/* fist img css is finish==================== */
+
+
+/* our service text css is finish============== */
+
+/* web design text css is start=============== */
+.second{
+    height: 150px;
+    margin-top: 20px;
+}
+/* second img css================= */
+.m2{
+    position: absolute;
+    margin-left: 47.6%;
+    padding-top: 10px;
+}
+.layer2{
+    opacity: 0.251;
+width: 73px;
+height: 72px;
+border-radius: 36px;
+background-color: #ffffff;
+}
+.back2{
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    background-color: #ffffff;
+    
+    background-image: url(img/3-task\ f-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+/* second img css is finish=============== */
+.s1{
+    width: 587px;
+    height: 74px;
+    font-size: 18px;
+    line-height: 29px;
+    color: #e74c3c;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: right;
+    margin-left: 40px;
+}
+.s2{
+    width: 646px;
+    height: 114px;
+    font-size: 14px;
+    line-height: 29px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
+    text-align: right;
+    
+
+}
+/* web design css is finish=================== */
+
+/* print design css is start====================== */
+.third{
+    height: 150px;
+    margin-top: 20px;
+}
+.t1{
+    width: 587px;
+    height: 74px;
+    font-size: 18px;
+    line-height: 29px;
+    color: #e74c3c;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: right;
+    margin-left: 40px;
+}
+.t2{
+    width: 646px;
+    height: 114px;
+    font-size: 14px;
+    line-height: 29px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
+    text-align: right;
+    
+
+}
+/* print design text css is finish=================== */
+
+/* photography text css is start======================== */
+.fourth{
+    height: 150px;
+    margin-top: 20px;
+}
+/* third img css=================== */
+.m3{
+    position: absolute;
+    margin-left: 47.6%;
+    padding-top: 10px;
+}
+.layer3{
+    opacity: 0.251;
+width: 73px;
+height: 72px;
+border-radius: 36px;
+background-color: #ffffff;
+}
+.back3{
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    background-color: #ffffff;
+    
+    background-image: url(img/3-task\ f-3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+/* third img css is finish here ================ */
+.d1{
+    width: 587px;
+    height: 74px;
+    font-size: 18px;
+    line-height: 29px;
+    color: #e74c3c;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: right;
+    margin-left: 40px;
+}
+.d2{
+    width: 646px;
+    height: 114px;
+    font-size: 14px;
+    line-height: 29px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
+    text-align: right;
+    
+
+}
+/* photography text css is finish================= */
+.service2{
+    background-image: url(img/task\ 3\ img.png);
+    width: 50%;
+    height: 630px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}

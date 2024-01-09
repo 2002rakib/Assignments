@@ -1,0 +1,125 @@
+.main{
+    display: flex;
+   flex-wrap: wrap;
+   width: 220px;
+}
+
+.grid{
+display: inline-grid;
+grid-template-columns: auto auto auto auto auto  auto;
+width: 150px;
+/* width: auto; */
+
+
+
+}
+.grid1{
+    border: 1px solid black;
+}
+#g11{
+background-image: url(img/4k-nature-ztbad1qj8vdjqe0p.jpg);
+background-position: 100px;
+background-size: cover;
+grid-column-start: 1;
+grid-column-end: 5;
+grid-row-start: 1;
+grid-row-end: 2;
+}
+#g12{
+    background-image: url(img/make-9d8da-windows-87c7a-change-0b007-the-77c74-desktop-6d3f8-background-d25f6-by-40917-itself-d4270-with---this---trick------itigic.webp);
+    background-position: 100px;
+    background-size: cover;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    }
+    #g13{
+        background-image: url(img/nature-3082832_640.jpg);
+        background-position: 100px;
+        background-size: cover;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        }
+        #g14{
+            background-image: url(img/ocean-3605547_1280.jpg);
+            background-position: 100px;
+            background-size: cover;
+            grid-column-start: 2;
+            grid-column-end: 6;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            }
+            #g15{
+                background-image: url(img/ocean-3605547_1280.jpg);
+                background-position: 100px;
+                background-size: cover;
+                grid-column-start: 6;
+                grid-column-end: 7;
+                grid-row-start: 2;
+                grid-row-end: 3;
+                }
+                #g16{
+                    background-image: url(img/pexels-photo-1834399.jpeg);
+                    background-position: 100px;
+                    background-size: cover;
+                    grid-column-start: 1;
+                    grid-column-end: 4;
+                    grid-row-start: 3;
+                    grid-row-end: 4;
+                    }
+                    #g17{
+                        background-image: url(img/road-1072821_640.jpg);
+                        background-position: 100px;
+                        background-size: cover;
+                        grid-column-start: 4;
+                        grid-column-end: 7;
+                        grid-row-start: 3;
+                        grid-row-end: 4;
+                        }
+                        #g18{
+                            background-image: url(img/4k-nature-ztbad1qj8vdjqe0p.jpg);
+                            background-position: 100px;
+                            background-size: cover;
+                            grid-column-start: 1;
+                            grid-column-end: 3;
+                            grid-row-start: 4;
+                            grid-row-end: 5;
+                            }
+                            #g19{
+                                background-image: url(img/road-1072821_640.jpg);
+                                background-position: 100px;
+                                background-size: cover;
+                                grid-column-start: 3;
+                                grid-column-end: 5;
+                                grid-row-start: 4;
+                                grid-row-end: 5;
+                                }
+                                #g110{
+                                    background-image: url(img/ocean-3605547_1280.jpg);
+                                    background-position: 100px;
+                                    background-size: cover;
+                                    grid-column-start: 5;
+                                    grid-column-end: 7;
+                                    grid-row-start: 4;
+                                    grid-row-end: 5;
+                                    }
+.side{
+width: 70px;
+height: inherit;
+background-color: black;
+
+
+}  
+h5{ 
+    color: white;
+}
+p{
+    color: white;
+    font-size: xx-small;
+    text-align: end;
+    
+
+}                              

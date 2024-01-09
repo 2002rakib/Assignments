@@ -1,0 +1,265 @@
+.main {
+    width: 100%;
+    height: 651px;
+}
+
+.opacity {
+    opacity: 0.749;
+    width: 100%;
+    height: 500px;
+    background-color: #202020;
+}
+
+/* image tag css is start here================== */
+.img {
+    background-image: url(img/Put\ Your\ Image.png);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: contain;
+    width: 100%;
+    height: 651px;
+    position: relative;
+}
+
+/* image tag css is finish here================= */
+
+/* text css start here==================== */
+.text {
+    font-size: 36px;
+    letter-spacing: 4px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Source Sans Pro";
+    text-align: center;
+    padding-top: 100px;
+}
+
+.text1 {
+    width: 1173px;
+    height: 39px;
+    font-size: 14px;
+    line-height: 29px;
+    color: #f4f5f9;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 70px;
+
+}
+
+/* text css finish here============= */
+
+/* dash line or dot css is start here=========== */
+.border {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.dash1 {
+    width: 80px;
+    height: 1px;
+    background-position: center;
+    border: 1px solid black;
+    background-color: black;
+    margin-right: 10px;
+}
+
+.dott {
+    width: 7px;
+    height: 7px;
+    border-radius: 3px;
+    background-color: #e74c3c;
+}
+
+.dash2 {
+    width: 80px;
+    height: 1px;
+    background-position: center;
+    border: 1px solid black;
+    background-color: black;
+    margin-left: 10px;
+}
+
+/* dash line or dot css is finish here=========== */
+.svg {
+    margin-top: 3px;
+
+}
+
+/* team membar 1 image css is start here============== */
+.team1 {
+    margin-left: 150px;
+    position: absolute;
+    margin-top: 17.5%
+}
+
+.l1 {
+    width: 57px;
+    height: 56px;
+    border-radius: 28px;
+    background-color: #e74c3c;
+}
+
+.l2 {
+    width: 51px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #0b0c0b;
+    background-image: url(img/task\ 4\ img\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: cover; */
+}
+
+/* team membar 1 image css is finish here============== */
+
+/* team membar 2 image css is start here============== */
+.team2 {
+    margin-left: 26%;
+    position: absolute;
+    margin-top: 11.5%;
+
+
+
+}
+
+.l3 {
+    width: 88px;
+    height: 86px;
+    border-radius: 43px;
+    filter: drop-shadow(-4.33px 2.5px 7.5px #000000);
+    background-color: #e74c3c;
+}
+
+.l4 {
+    width: 78px;
+    height: 76px;
+    border-radius: 38px;
+    background-color: #f4f5f9;
+    background-image: url(img/task\ 4\ img\ 2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.l5 {
+    opacity: 0.502;
+    width: 88px;
+    height: 86px;
+    border-radius: 43px;
+    background-color: #e74c3c;
+}
+
+/* team membar 2 image css is finish here============== */
+
+/* team member 2 bio text is css start  here======================= */
+.text3 {
+    margin-left: 26%;
+    position: absolute;
+    margin-top: 19%;
+}
+
+.t1 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+}
+
+.t2 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
+}
+
+/* team member 2 bio text is css finsih here======================= */
+/* team membar 3 image css is start here============== */
+.team3 {
+    margin-left: 46%;
+    position: absolute;
+    margin-top: 9.5%;
+
+}
+
+.l6 {
+    width: 57px;
+    height: 56px;
+    border-radius: 28px;
+    background-color: #e74c3c;
+}
+
+.l7 {
+    width: 51px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #0b0c0b;
+    background-image: url(img/task\ 4\ img\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: cover; */
+}
+
+/* team membar 3 image css is finish here============== */
+
+/* team membar 4 image css is start here============== */
+.team4 {
+    margin-left: 60%;
+    position: absolute;
+    margin-top: 13%;
+
+}
+
+.l8 {
+    width: 57px;
+    height: 56px;
+    border-radius: 28px;
+    background-color: #e74c3c;
+}
+
+.l9 {
+    width: 51px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #0b0c0b;
+    background-image: url(img/task\ 4\ img\ 4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: cover; */
+}
+
+/* team membar 4 image css is finish here============== */
+
+/* team membar 5 image css is start here============== */
+.team5 {
+    margin-left: 77%;
+    position: absolute;
+    margin-top: 15%;
+
+}
+
+.l10 {
+    width: 57px;
+    height: 56px;
+    border-radius: 28px;
+    background-color: #e74c3c;
+}
+
+.l11 {
+    width: 51px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #0b0c0b;
+    background-image: url(img/task\ 4\ img\ 5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: cover; */
+}
+
+/* team membar 5 image css is finish here============== */

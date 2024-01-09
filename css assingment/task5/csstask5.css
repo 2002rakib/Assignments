@@ -1,0 +1,271 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* main portion=============================== */
+.main{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   justify-content: space-around;
+   margin-top: 20px;
+}
+/* box 1111===================================================== */
+.box1{
+    height: 270px;
+    width: 350px;
+    /* background-color: black; */
+    margin-bottom: 10px;
+    border: 3px solid black;
+}
+.title{
+    width: 345px;
+    height: 130px;
+    background-color: gray;
+    color: whitesmoke;
+    text-align: center;
+}
+.title h2{
+  font-size: 40px;
+  padding-top: 30px;
+}
+.detail{
+    width: 345px;
+    height:135px;
+    color: black;
+    text-align: start;
+    margin-left: 10px;
+}
+.button{
+    display: flex;
+    margin-top: 10px;
+}
+.b1{
+    height: 30px;
+    width: 60px;
+    border: solid black 1px;
+    text-align: center;
+}
+.b2{
+    height: 30px;
+    width: 60px;
+    border: solid black 1px;
+    text-align: center;
+}
+/* box2============================================================== */
+.box2{
+    height: 270px;
+    width: 350px;
+    /* background-color:aqua; */
+    margin-bottom: 10px;
+    border: 3px solid black;
+}
+.title1{
+    width: 345px;
+    height: 130px;
+    background-color: gray;
+    color: whitesmoke;
+    text-align: center;
+}
+.title1 h2{
+  font-size: 40px;
+  padding-top: 30px;
+}
+.detail1{
+    width: 345px;
+    height:135px;
+    color: black;
+    text-align: start;
+    margin-left: 10px;
+}
+.button1{
+    display: flex;
+    margin-top: 10px;
+}
+.b3{
+    height: 30px;
+    width: 60px;
+    border: solid black 1px;
+    text-align: center;
+}
+.b4{
+    height: 30px;
+    width: 60px;
+    border: solid black 1px;
+    text-align: center;
+}
+/* box 3 css================================================================================== */
+.box3{
+    height: 270px;
+    width: 350px;
+    /* background-color: yellow; */
+    margin-bottom: 10px;
+    border: 3px solid black;
+}
+.title2{
+    width: 345px;
+    height: 130px;
+    background-color: gray;
+    color: whitesmoke;
+    text-align: center;
+}
+.title2 h2{
+  font-size: 40px;
+  padding-top: 30px;
+}
+.detail2{
+    width: 345px;
+    height:135px;
+    color: black;
+    text-align: start;
+    margin-left: 10px;
+}
+.button2{
+    display: flex;
+    margin-top: 10px;
+}
+.b5{
+    height: 30px;
+    width: 60px;
+    border: solid black 1px;
+    text-align: center;
+}
+.b6{
+    height: 30px;
+    width: 60px;
+    border: solid black 1px;
+    text-align: center;
+}
+/* box 4 csss======================================================================================================== */
+.box4{
+    height: 270px;
+    width: 350px;
+    border: 3px solid black;
+}
+
+.title3{
+    width: 345px;
+    height: 130px;
+    background-color: gray;
+    color: whitesmoke;
+    text-align: center;
+}
+.title3 h2{
+  font-size: 40px;
+  padding-top: 30px;
+}
+.detail3{
+    width: 345px;
+    height:135px;
+    color: black;
+    text-align: start;
+    margin-left: 10px;
+}
+.button3{
+    display: flex;
+    margin-top: 10px;
+}
+.b7{
+    height: 30px;
+    width: 60px;
+    border: solid black 1px;
+    text-align: center;
+}
+.b8{
+    height: 30px;
+    width: 60px;
+    border: solid black 1px;
+    text-align: center;
+}
+/* box 5=========================================== */
+.box5{
+    height: 270px;
+    width: 350px;
+    border: 3px solid black;
+}
+
+.title4{
+    width: 345px;
+    height: 130px;
+    background-color: gray;
+    color: whitesmoke;
+    text-align: center;
+}
+.title4 h2{
+  font-size: 40px;
+  padding-top: 30px;
+}
+.detail4{
+    width: 345px;
+    height:135px;
+    color: black;
+    text-align: start;
+    margin-left: 10px;
+}
+.button4{
+    display: flex;
+    margin-top: 10px;
+}
+.b9{
+    height: 30px;
+    width: 60px;
+    border: solid black 1px;
+    text-align: center;
+}
+.b10{
+    height: 30px;
+    width: 60px;
+    border: solid black 1px;
+    text-align: center;
+}
+/* box 6 csss======================================= */
+.box6{
+    height: 270px;
+    width: 350px;
+    /* background-color:gray; */
+    border: 3px solid black;
+}
+
+.title5{
+    width: 345px;
+    height: 130px;
+    background-color: gray;
+    color: whitesmoke;
+    text-align: center;
+}
+.title5 h2{
+  font-size: 40px;
+  padding-top: 30px;
+}
+.detail5{
+    width: 345px;
+    height:135px;
+    color: black;
+    text-align: start;
+    margin-left: 10px;
+}
+.button5{
+    display: flex;
+    margin-top: 10px;
+}
+.b11{
+    height: 30px;
+    width: 60px;
+    border: solid black 1px;
+    text-align: center;
+}
+.b12{
+    height: 30px;
+    width: 60px;
+    border: solid black 1px;
+    text-align: center;
+}
+
+
+  
+  
+  
+  
