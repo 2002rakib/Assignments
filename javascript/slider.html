@@ -1,0 +1,94 @@
+slider2.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <style>
+        /* background color to black */
+        body {
+            background-color: black;
+        }
+        /* centering images */
+        .sliderImgs {
+            display: flex;
+            justify-content: center;
+        }
+        /* setting same height and width */
+        img {
+            height: 550px;
+            width: 100%
+        }
+        /* giving padding to buttons */
+        button {
+            padding: 10px;
+        }
+        /* space around buttons */
+        .controls {
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <!-- Image -->
+    <div class="sliderImgs">
+        <img src="https://images.pexels.com/photos/36762/scarlet-honeyeater-bird-red-feathers.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" id="one">
+    </div>
+    <!-- slider control buttons -->
+    <div class="controls">
+        <button onclick="prev()">
+            </button>
+                <button onclick="next()"> > </button>
+    </div>
+</body>
+<script>
+    // Keeping track with tracker
+    let tracker = 1;
+    function next() {
+        // getting id of image
+        let one = document.getElementById("one")
+        // Comparing the tracker and setting image src
+        if (tracker == 1) {
+
+            one.src = "https://images.pexels.com/photos/36762/scarlet-honeyeater-bird-red-feathers.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
+        }
+        else if (tracker == 2) {
+            one.src = "https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        }
+        else if (tracker == 3) {
+            one.src = "https://images.pexels.com/photos/2575717/pexels-photo-2575717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        }
+        // Incrementing the tracker to update the image src
+        tracker += 1
+        // Make sure to check that it doesn't go above limits of images
+        if (tracker > 4) {
+            tracker = 1;
+        }
+    }
+
+    function prev() {
+        // Same as above
+        let one = document.getElementById("one")
+        if (tracker == 1) {
+
+            one.src = "https://images.pexels.com/photos/36762/scarlet-honeyeater-bird-red-feathers.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
+        }
+        else if (tracker == 2) {
+            one.src = "https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        }
+        else if (tracker == 3) {
+            one.src = "https://images.pexels.com/photos/2575717/pexels-photo-2575717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        }
+        // Decrementing the tracker to get previous image
+        tracker -= 1
+        // if after decrementing the tracker
+        if (tracker == 0) {
+            tracker = 3;
+        }
+    }
+</script>
+
+</html>

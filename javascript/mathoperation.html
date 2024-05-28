@@ -1,0 +1,122 @@
+<html>
+<head>
+<!-- ===================================CSS======================= -->
+   <style>
+      *
+      {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+      }
+      h2
+      {
+         text-align: center;
+         background-color: #061f1f;
+         color: brown;
+      }
+      .calculator_content_box 
+      {
+         border: 3px solid grey;
+         border-radius: 5px;
+         padding: 10px;
+         width: 300px;
+         height: 400px;
+         margin: 0 auto;
+         margin-top: 50px;
+         background-color: rgb(80, 255, 162);
+      }
+      input[type="number"] 
+      {
+         padding: 5px;
+         width: 90px;
+         border-radius: 20px;
+      }
+      .center 
+      {
+         text-align: end;
+         /* padding-right: 50px; */
+         padding-left: 50px;
+      }
+      #res 
+      {
+         border: 2px solid #804000;
+         border-radius: 2px;
+         padding: 8px 16px;
+      }
+      button.op_button 
+      {
+         background-color: #d51818;
+         color: rgb(1, 15, 12);
+         padding: 10px 14px;
+         border-radius: 20px;
+         font-weight: bold;
+      }
+      .buttons_list 
+      {
+         text-align: start;
+      }
+   </style>
+   <!-- ====================CSS END====================== -->
+</head>
+<body>
+
+   <div class="calculator_box">
+      <div class="calculator_content_box">
+         <h2>Maths Operation</h2>
+         <hr>
+         <p>Enter 1st Number is :</p>
+          <input type="number" name="num_one" id="num_one" style="margin-right: 110px; background-color: yellowgreen; color: #061f1f;">
+         <p>Enter 2nd Number is :</p>
+         <input type="number" name="num_two" id="num_two" style="background-color: yellowgreen; color: #061f1f;">
+
+        
+         <br> 
+         <div class="buttons_list">
+            <button class="op_button" onclick="addFun()">+</button>
+            <button class="op_button" onclick="subFun()">-</button>
+            <button class="op_button" onclick="mulFun()">*</button><br>
+            <button class="op_button" onclick="divFun()">/</button>
+            <button class="op_button" onclick="modFun()">%</button>
+         </div>
+
+         <p class="center"><span class="restext">Answer is :-</span>
+            <span id="res" style="background-color: yellowgreen;"></span>
+         </p>
+      </div>
+   </div>
+   <!-- ======================JS========================= -->
+   <script>
+      function addFun() {
+         var a = document.getElementById("num_one").value;
+         var b = document.getElementById("num_two").value;
+         var r = +a + +b;
+         document.getElementById("res").innerHTML = r;
+      }
+      function subFun() {
+         var a = document.getElementById("num_one").value;
+         var b = document.getElementById("num_two").value;
+         var r = +a - +b;
+         document.getElementById("res").innerHTML = r;
+      }
+      function mulFun() {
+         var a = document.getElementById("num_one").value;
+         var b = document.getElementById("num_two").value;
+         var r = +a * +b;
+         document.getElementById("res").innerHTML = r;
+      }
+      function divFun() {
+         var a = document.getElementById("num_one").value;
+         var b = document.getElementById("num_two").value;
+         var r = (+a / +b);
+         document.getElementById("res").innerHTML = r;
+      }
+      function modFun() {
+         var a = document.getElementById("num_one").value;
+         var b = document.getElementById("num_two").value;
+         var r = +a % +b;
+         document.getElementById("res").innerHTML = r;
+      }
+   </script>
+   <!-- ==================JS end====================== -->
+</body>
+</html>
