@@ -1,0 +1,11 @@
+s="rakib shaikh "
+print(s)
+print(len(s))
+print(s.capitalize())
+print(s.casefold())
+s.lower()
+print(s.count("a"))
+print(s.center(30,"&"))
+print(s.endswith("rh"))
+print(s.find("a"))
+print(s.index("r"))
